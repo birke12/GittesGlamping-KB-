@@ -1,0 +1,40 @@
+.card{
+background-color: #33626C;
+justify-items: center;
+z-index: 300;
+border-radius: 40px 0px 40px;
+position:relative;
+margin-block-start: -80px;
+padding-block: 40px;
+ color: white;
+ margin-block-end: 80px;
+   
+
+h2{
+    font-size: 60px;
+    width: 300px;
+     font-weight: 300;
+     padding-block-end: 20px;
+}
+
+h3{
+  font-size: 15px;
+  width: 400px;
+  font-weight: 300;
+   font-family: "Poppins";
+}
+
+p{
+  font-size: 40px;
+}
+}
+
+@media (min-width: 768px) {
+  .card{
+    padding-block: 60px;
+  h3{ 
+  width: 600px;
+}
+  }
+}
+

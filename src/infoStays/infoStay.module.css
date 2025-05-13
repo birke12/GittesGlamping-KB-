@@ -1,0 +1,53 @@
+.infoSection {
+   background-color: #33626c; 
+color: white;
+
+}
+
+.includesContainer {
+   display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;  
+
+}
+.includesList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+    font-family: poppins, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+.price {
+    font-family: poppins, sans-serif;
+    font-weight: 100;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    margin-top: 1.8rem;
+}
+
+.button {
+  background-color: transparent;
+  border-radius: 40px 0 40px 0;
+  height: 90px;
+  width: 280px;
+  font-size: 54px;
+  font-weight: 400;
+  color: white;
+  border: white 1px solid;
+  cursor: pointer;
+  border-width: 1px;
+  text-decoration: none;
+  outline: none;
+  font-family: "Zen Loop";
+  color: white;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}

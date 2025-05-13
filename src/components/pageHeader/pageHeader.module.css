@@ -1,0 +1,79 @@
+.button {
+  background-color: transparent;
+  border-radius: 40px 0 40px 0;
+  height: 90px;
+  width: 280px;
+  font-size: 54px;
+  font-weight: 400;
+  color: white;
+  border: white 1px solid;
+  cursor: pointer;
+  border-width: 1px;
+  text-decoration: none;
+  outline: none;
+  font-family: "Zen Loop";
+}
+h3 {
+  font-family: "Zen Loop";
+}
+
+.homeMainContainer {
+  position: relative;
+  height: 100vh;
+  color: white;
+  z-index: 1;
+}
+
+.homeMainContainer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(112, 112, 112, 0.5); /* black overlay at 50% opacity */
+  z-index: -1;
+}
+
+.homeContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white; /* If you need white text on dark background */
+}
+.homeContent .logo {
+  height: 60px;
+}
+.homeContent .subTitle {
+  margin-top: 10px;
+  font-weight: 200;
+  font-size: 50px;
+}
+.homeContent .title {
+  margin-top: -20px;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 90px;
+}
+
+.contactMainContainer {
+  position: relative;
+  height: 100vh;
+  color: white;
+  z-index: 1;
+}
+
+.contactMainContainer::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(112, 112, 112, 0.5); /* black overlay at 50% opacity */
+  z-index: -1;
+}
+
+.contactPageHeader .title {
+  margin-top: -20px;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-size: 90px;
+  
+}

@@ -1,0 +1,83 @@
+.contact {
+  background-color: #33626c;
+  border-radius: 50px 0px 0px 0px;
+  margin-top: -80px;
+  z-index: 300;
+  position: relative;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  padding: 86px 0px;
+  gap: 33px;
+}
+
+.textContainer p {
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0px 20px;
+  width: 70%;
+  line-height: 21px;
+}
+
+.textContainer h2 {
+  font-size: 64px;
+  font-weight: 400;
+
+  padding: 0px 33px;
+}
+
+.contact .formGroup {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  gap: 10px;
+  margin-top: 20px;
+  width: 60%;
+}
+
+.contact .formGroup label {
+  color: white;
+  font-family: "Zen Loop";
+  font-size: 24px;
+}
+
+.contact .formGroup textarea {
+  background-color: transparent;
+  border: solid 1px white;
+  border-radius: 25px;
+  height: 207px;
+}
+
+.contact .formGroup input {
+  color: white;
+  background-color: transparent;
+  border: solid 1px white;
+  border-radius: 25px;
+  height: 35px;
+}
+
+.contact form button {
+  height: 100px;
+  background-color: #829b97;
+  border: transparent;
+  height: 103px;
+  width: 265px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  color: white;
+  font-family: "Zen Loop";
+  font-size: 48px;
+  font-weight: 400;
+  margin: 46px 0px 53px 0px;
+  transition: 0.3s ease-in-out;
+}
+
+.contact form button:hover {
+  background-color: #77a0a9;
+  scale: 1.05;
+}

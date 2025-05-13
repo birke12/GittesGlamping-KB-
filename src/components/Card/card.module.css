@@ -1,0 +1,103 @@
+.cardTitle{
+    background-color:#C5B496 ;
+    padding: 30px;
+    margin-inline:10px ;
+    border-radius: 40px 0 40px 0px;
+    color: white;
+    text-align: center;
+    margin-bottom: -30px;
+    z-index: 800;
+  position: relative;
+
+
+    h2{
+    font-size: 50px;
+    font-family: "Zen Loop";
+    }
+
+
+}
+
+.cardImg{
+img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    z-index: 100;
+  position: relative;
+  filter: opacity(70%);
+
+}
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+   margin-inline-end: 40px;
+}
+.cardName{
+    z-index: 800;
+    margin-top: -80px;
+text-align: left;
+padding-left: 40px;
+padding: 30px;
+margin-inline: 30px ;
+color: white;
+background-color: #33626C;
+border-radius: 40px 0px 40px 0px;
+position: relative;
+
+
+
+p{
+    padding-inline-end: 30px;
+    font-size: 30px;
+    font-family: "Zen Loop";
+      padding-inline: 40px;
+}
+
+
+.buttonFelx{
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    border: white 1px solid;
+    border-radius: 40px 0px 40px 0px;
+    padding: 20px;
+    width: 100%;
+    margin-top: 30px;
+}
+.arrowDown, .arrowUp{
+    color: white;
+    background-color: transparent;
+    border: none;
+}
+
+
+h3{
+    font-size: 15px;
+    font-weight: 300;
+    font-family: "Poppins";
+    padding-top: 30px;
+}
+}
+
+.card{
+    margin-bottom: 150px;
+    
+}
+
+
+@media (min-width: 768px) {
+  .card{
+width: 400px;
+ margin-bottom: 80px;
+  }
+
+  .wrap{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 40px;
+  }
+}

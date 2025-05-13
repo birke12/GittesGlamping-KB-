@@ -1,0 +1,74 @@
+.container {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -50px; /* Instead of margin: -50px */
+/*   margin-bottom: 50px; */
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+    background-color: #33626c; 
+  color: white;
+  position: relative;
+  z-index: 999;
+  border-radius: 40px 0 40px 0;
+}
+
+.title {
+  font-family: "Zen Loop";
+  font-size: 74px;
+  font-weight: bold;
+  margin-top: 50px;
+  font-weight: 200;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+
+
+}
+
+.text {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  font-family: poppins, sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.extraTextMargin {
+  margin-bottom: 100px; /* or however much you want */
+}
+
+
+.image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 50px;
+
+  margin: 50px auto;
+}
+
+.button {
+  background-color: #829b97;
+  border-radius: 40px 0 40px 0;
+  height: 100px;
+  width: 280px;
+  font-size: 34px;
+  font-weight: 300;
+  color: white;
+
+  cursor: pointer;
+  border-width: 1px;
+  text-decoration: none;
+  outline: none;
+  font-family: "Zen Loop";
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+
+.button:hover {
+  background-color: #537b7c;
+}

@@ -1,0 +1,50 @@
+.textBoxContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.textBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  border-radius: 40px 0 40px 0;
+  max-width: 600px;
+  background-color: #829b97;
+  color: #ffffff;
+  margin: 50px auto;
+  text-align: center;
+  margin-left: 30px;
+  margin-right: 30px;
+  /* REMOVE max-height or height from here */
+}
+
+.firstBoxBG {
+  background-color: #c5b496;
+  height: 300px; /* Only this one has fixed height */
+}
+.title {
+  font-size: 1.25rem;
+  margin: 0 0 0.5rem 0;
+  font-family: "Zen Loop";
+  font-size: 60px;
+  max-width: 300px;
+  font-weight: 400;
+}
+
+.subtitle {
+  font-size: 34px;
+  font-weight: 500;
+  margin: 0 0 0.5rem 0;
+  color: #ffffff;
+}
+
+.text {
+  font-size: 15px;
+  line-height: 1.5;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-style: poppins, sans-serif;
+  font-weight: 300;
+}
